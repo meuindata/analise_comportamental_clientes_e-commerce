@@ -146,22 +146,12 @@ O projeto consolidou uma visão ampla e estruturada do comportamento dos cliente
 
 ---
 
-###**📊 Panorama Descritivo do Perfil dos Clientes**###
+## 📊 Panorama Descritivo do Perfil dos Clientes
 
-<br>
-
-<p alinhar="centro">
-  <imagem scr="panorama_descritivo.gif" alt="Panorama Descritivo" largura='700"/>
-
-  </p>
+<br> <p align="center"> <img src="panorama_descritivo.gif" alt="Panorama Descritivo" width="700"/> </p>
 
 ---
 
-###**📈 Comportamento de Clientes por Nível de Propensão à Compra**###
+## 📈 Comportamento de Clientes por Nível de Propensão à Compra
 
-<br>
-
-<p alinhar="centro">
-  <imagem scr="panorama_score.gif" alt="Panorama Score" largura='700"/>
-
-  </p>
+<br> <p align="center"> <img src="panorama_score.gif" alt="Panorama Score" width="700"/> </p>

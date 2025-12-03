@@ -24,12 +24,13 @@ Este projeto analisa a base de clientes de um e-commerce com o objetivo de ident
 
 Resumidamente, o projeto busca responder:
 
-Quais segmentos de clientes, considerando gênero, faixa etária, região e tipo de vínculo (novo, recorrente, fidelizado), apresentam maior propensão à compra e, como essas características se relacionam com o comportamento de navegação e engajamento na plataforma?
+> *Quais segmentos de clientes, considerando gênero, faixa etária, região e tipo de vínculo (novo, recorrente, fidelizado), apresentam maior propensão à compra e, como essas características se relacionam com o comportamento de navegação e engajamento na plataforma?*
+</details> 
 
 Além disso, foram investigadas hipóteses envolvendo:
 
 - Perfil e comportamento dos diferentes segmentos;
-- Fontes de origem e impacto no funil (quando aplicável);
+- Fontes de origem e impacto no funil;
 - Relação entre tempo de relacionamento e probabilidade de compra;
 - Construção de um score de propensão baseado em perfil, comportamento e engajamento.
 
@@ -39,15 +40,13 @@ Além disso, foram investigadas hipóteses envolvendo:
   <summary><strong>⚙️ Ferramentas e Tecnologias</strong></summary>
   <br>
 
-  - **Limpeza, Transformação e Modelagem**: Bigquery e Power BI;  
+  - **Limpeza, Transformação e Modelagem**: BigQuery e Power BI;  
   - **Visualização**: Power BI e Google Colab (Pandas, Matplotlib, Numpy); 
   - **Documentação Técnica**: Google Colab e Google Documentos;  
   - **Apresentação**: Figma.  
 
   > *O projeto foi desenvolvido desde o pré-processamento até a modelagem exploratória, integrando análises estatísticas e visualizações interativas.*
 </details>
-
----
 
 <details>
   <summary><strong>📂 Processamentos e Análises dos Dados</strong></summary>
@@ -63,11 +62,9 @@ As ferramentas utilizadas foram Google BigQuery e Power BI.
   - Checagem dos tipos de dados;
   - Exclusão/substituição de valores inconsistentes;
   - Padronização de categorias textuais;
-  - Conferência de integridade entre variáveis
+  - Conferência de integridade entre variáveis.
 
 </details>
-
----
 
 <details>
   <summary><strong>📊 Análises Exploratórias – EDA</strong></summary>
@@ -84,8 +81,6 @@ Conduzida no Power BI, com granularidade a nível de cliente.
 
 **Resultado:** geração de perguntas de negócio, identificação de padrões de comportamento e direcionamento das etapas seguintes.
 </details>
-
----
 
 <details>
   <summary><strong>🔄 Cruzamento e Comparações Entre Variáveis</strong></summary>
@@ -104,8 +99,6 @@ Realizado no BigQuery + Power BI.
 Esses cruzamentos serviram de base para identificar padrões-chave e orientar recomendações estratégicas.
 </details>
 
----
-
 <details>
   <summary><strong>⭐ Construção do Score de Propensão à Compra</strong></summary>
   <br>
@@ -120,13 +113,11 @@ Esses cruzamentos serviram de base para identificar padrões-chave e orientar re
   - Baixa propensão
   - Média propensão
   - Alta propensão
-- Comparação de padrões entre esses grupos;
-- Visualização final com gráficos radar
+- Comparação de padrões entre esses grupos (proporções médias);
+- Visualização final com gráficos radar.
 
 Esse score permitiu sintetizar comportamentos complexos em uma métrica simples e aplicável.
 </details>
-
----
 
 <details>
   <summary><strong>📈 Resultados e Conclusões</strong></summary>
@@ -134,7 +125,7 @@ Esse score permitiu sintetizar comportamentos complexos em uma métrica simples 
 
 A análise comportamental permitiu identificar padrões relevantes na jornada dos clientes e compreender como variáveis de perfil, engajamento, tempo de relacionamento e comportamento de navegação influenciam a probabilidade de compra em um ambiente de e-commerce.
 
-O projeto consolidou uma visão ampla e estruturada do comportamento dos clientes no e-commerce, gerando insumos valiosos para decisões orientadas a dados nos pilares de segmentação, retenção, engajamento e experiência do usuário.
+O projeto consolidou uma visão ampla e estruturada do comportamento dos clientes, gerando insumos valiosos para decisões orientadas a dados nos pilares de segmentação, retenção, engajamento e experiência do usuário.
 </details>
 
 ## 🔗 Links Úteis
@@ -149,8 +140,6 @@ O projeto consolidou uma visão ampla e estruturada do comportamento dos cliente
 ## 📊 Panorama Descritivo do Perfil dos Clientes
 
 <br> <p align="center"> <img src="panorama_descritivo.gif" alt="Panorama Descritivo" width="700"/> </p>
-
----
 
 ## 📈 Comportamento de Clientes por Nível de Propensão à Compra
 
